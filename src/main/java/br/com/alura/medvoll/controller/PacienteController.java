@@ -1,9 +1,8 @@
 package br.com.alura.medvoll.controller;
 
-import br.com.alura.medvoll.endereco.Endereco;
-import br.com.alura.medvoll.medico.DadosCadastroMedico;
-import br.com.alura.medvoll.medico.Medico;
-import br.com.alura.medvoll.medico.MedicoRepository;
+import br.com.alura.medvoll.paciente.DadosCadastroPaciente;
+import br.com.alura.medvoll.paciente.Paciente;
+import br.com.alura.medvoll.paciente.PacienteRepository;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
@@ -13,16 +12,16 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/medicos")
-public class MedicoController {
+@RequestMapping("/pacientes")
+public class PacienteController {
 
     @Autowired
-    private MedicoRepository repositorio;
+    private PacienteRepository repositorio;
 
     @PostMapping
     @Transactional
-    public void cadastrar(@RequestBody @Valid DadosCadastroMedico dados){
-        repositorio.save(new Medico(dados));
+    public void cadastrar(@RequestBody @Valid DadosCadastroPaciente dados){
+        repositorio.save(new Paciente(dados));
     }
 
 }
