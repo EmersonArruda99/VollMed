@@ -1,6 +1,6 @@
-package br.com.alura.medvoll.medico;
+package br.com.alura.medvoll.domain.medico;
 
-import br.com.alura.medvoll.endereco.Endereco;
+import br.com.alura.medvoll.domain.endereco.Endereco;
 import jakarta.persistence.*;
 import lombok.*;
 

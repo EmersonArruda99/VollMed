@@ -1,6 +1,5 @@
-package br.com.alura.medvoll.endereco;
+package br.com.alura.medvoll.domain.endereco;
 
-import br.com.alura.medvoll.medico.DadosAtualizacaoMedico;
 import jakarta.persistence.Embeddable;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,4 +1,4 @@
-package br.com.alura.medvoll.medico;
+package br.com.alura.medvoll.domain.medico;
 
 public enum Especialidade {
     ORTOPEDIA,

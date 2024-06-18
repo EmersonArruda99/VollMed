@@ -1,6 +1,6 @@
 package br.com.alura.medvoll.controller;
 
-import br.com.alura.medvoll.medico.*;
+import br.com.alura.medvoll.domain.medico.*;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

@@ -1,6 +1,6 @@
-package br.com.alura.medvoll.paciente;
+package br.com.alura.medvoll.domain.paciente;
 
-import br.com.alura.medvoll.endereco.Endereco;
+import br.com.alura.medvoll.domain.endereco.Endereco;
 
 public record DadosDetalhamentoPaciente(String nome, String email, String telefone, String cpf, Endereco endereco) {
 
