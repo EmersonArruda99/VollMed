@@ -1,5 +1,6 @@
 package br.com.alura.medvoll;
 
+import br.com.alura.medvoll.domain.usuario.Usuario;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

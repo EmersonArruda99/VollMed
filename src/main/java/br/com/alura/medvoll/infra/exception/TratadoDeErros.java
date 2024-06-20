@@ -1,4 +1,4 @@
-package br.com.alura.medvoll.infra;
+package br.com.alura.medvoll.infra.exception;
 
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.http.ResponseEntity;
